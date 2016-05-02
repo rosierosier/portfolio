@@ -5817,6 +5817,9 @@ button.close {
 img {
   max-width: 100%; }
 
+.container {
+  width: 100%; }
+
 h1,
 h2,
 h3,
@@ -5848,6 +5851,11 @@ h6 {
 #projects-link a {
   color: #fff;
   text-decoration: none; }
+
+#nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px; }
 
 #title {
   position: relative;

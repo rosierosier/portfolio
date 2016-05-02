@@ -16,6 +16,10 @@ img {
   max-width: 100%;
 }
 
+.container {
+  width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -63,17 +67,11 @@ h6 {
   text-decoration: none;
 }
 
-// #about-link {
-//   margin-right: 15px;
-// }
-//
-// #projects-link {
-//   margin-right: 15px;
-// }
-//
-// #contact-link {
-//   margin-right: 15px;
-// }
+#nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
 
 #title {
   position: relative;
