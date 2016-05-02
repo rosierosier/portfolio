@@ -5837,7 +5837,7 @@ h6 {
   background-size: cover; }
 
 .nav {
-  background-color: #000040;
+  background-color: #ffa500;
   padding-top: 10px; }
 
 .nav p {
@@ -5871,8 +5871,7 @@ a:hover {
   font-family: 'Quicksand', sans-serif; }
 
 #title p {
-  color: #d3d3d3;
-  font-family: 'Garamond', serif; }
+  color: #fff; }
 
 #profile-box {
   min-height: 300px; }
@@ -5894,9 +5893,6 @@ a:hover {
   top: 25%;
   transform: translateY(25%); }
 
-#profile:hover {
-  filter: none; }
-
 #about-info {
   min-height: 300px;
   padding-right: 5%; }
@@ -5904,9 +5900,36 @@ a:hover {
 #about-info h1 {
   color: #000040; }
 
-#about-info p {
+#about-info p,
+#skills-info p {
   color: #999;
   text-align: left; }
+
+#skills-info {
+  background-color: #00004c;
+  color: #fff;
+  min-height: 300px; }
+
+#skills-info h1 {
+  padding-left: 15px; }
+
+#skills-info p {
+  padding-left: 15px;
+  color: #ddd; }
+
+#html,
+#css,
+#sass,
+#bootstrap,
+#javascript,
+#backbone,
+#react,
+#jquery {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  margin: 15px; }
 
 .projects {
   margin-top: 15px; }
@@ -5932,6 +5955,11 @@ a:hover {
 #image-board-img img {
   width: 100%;
   border-radius: 4px; }
+
+#contact-info {
+  min-height: 300px;
+  background-color: #23bb17;
+  color: #fff; }
 
 .footer {
   margin-top: 15px;
