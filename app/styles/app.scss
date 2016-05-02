@@ -1,0 +1,141 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+  background:
+    linear-gradient(
+      rgba(230, 51, 136, 0.85),
+      rgba(230, 51, 136, 0.85)
+    ),
+    url("../images/picjumbo.com_HNCK8984.jpeg") center center;
+  min-height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.nav {
+  background-color: #00004c;
+  padding-top: 10px;
+}
+
+.nav p {
+  display: inline-block;
+  color: #fff;
+}
+
+#logo-icon {
+  display: inline-block;
+}
+
+#about-link a,
+#contact-link a,
+#projects-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+// #about-link {
+//   margin-right: 15px;
+// }
+//
+// #projects-link {
+//   margin-right: 15px;
+// }
+//
+// #contact-link {
+//   margin-right: 15px;
+// }
+
+#title {
+  position: relative;
+  top: 50%;
+  transform: translateY(70%);
+}
+
+#title h1 {
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#title p {
+  color: #d3d3d3;
+  font-family: 'Garamond', serif;
+}
+
+.projects {
+  margin-top: 15px;
+}
+
+.projects h3 {
+  text-align: center;
+}
+
+.projects p {
+  text-align: center;
+}
+
+.game {
+  border-right: 1px solid #ff3388;
+  border-left: 1px solid #ff3388;
+}
+
+#design-critic-img,
+#game-img,
+#image-board-img {
+  border-radius: 4px;
+  border: 1px solid #d3d3d3;
+}
+
+#design-critic-img img,
+#game-img img,
+#image-board-img img {
+  width: 100%;
+  border-radius: 4px;
+  // height: 150px;
+}
+
+// #design-critic-img {
+//   background-image: url("./images/welcome screen.png") center center;
+//   background-size: cover;
+//   height: 150px;
+// }
+
+.footer {
+  margin-top: 15px;
+  background-color: #d3d3d3;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  margin: 0 auto;
+}
