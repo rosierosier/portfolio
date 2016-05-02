@@ -5829,6 +5829,7 @@ h6 {
   font-family: 'Quicksand', sans-serif; }
 
 .header {
+  padding-top: 45px;
   background: linear-gradient(rgba(230, 51, 136, 0.85), rgba(230, 51, 136, 0.85)), url("../images/picjumbo.com_HNCK8984.jpeg") center center;
   min-height: 300px;
   background-position: center;
@@ -5836,7 +5837,7 @@ h6 {
   background-size: cover; }
 
 .nav {
-  background-color: #00004c;
+  background-color: #000040;
   padding-top: 10px; }
 
 .nav p {
@@ -5850,6 +5851,9 @@ h6 {
 #contact-link a,
 #projects-link a {
   color: #fff;
+  text-decoration: none; }
+
+a:hover {
   text-decoration: none; }
 
 #nav-links a {
@@ -5869,6 +5873,16 @@ h6 {
 #title p {
   color: #d3d3d3;
   font-family: 'Garamond', serif; }
+
+#about-info {
+  min-height: 450px; }
+
+#about-info h1 {
+  color: #000040; }
+
+#about-info p {
+  color: #999;
+  text-align: left; }
 
 .projects {
   margin-top: 15px; }
