@@ -5874,8 +5874,32 @@ a:hover {
   color: #d3d3d3;
   font-family: 'Garamond', serif; }
 
+#profile-box {
+  min-height: 300px; }
+
+#profile {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #999;
+  border-radius: 100%;
+  background: url("../images/profile.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-position: 0px -25px;
+  margin: 0 auto;
+  filter: grayscale(100%);
+  top: 25%;
+  transform: translateY(25%); }
+
+#profile:hover {
+  filter: none; }
+
 #about-info {
-  min-height: 450px; }
+  min-height: 300px;
+  padding-right: 5%; }
 
 #about-info h1 {
   color: #000040; }
