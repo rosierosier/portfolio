@@ -5913,8 +5913,7 @@ a:hover {
 
 #about-info p,
 #skills-info p {
-  color: #999;
-  text-align: left; }
+  color: #999; }
 
 #skills-info {
   color: #fff;
@@ -5925,15 +5924,32 @@ a:hover {
   padding-top: 30px; }
 
 #skills-info p {
-  padding-left: 30px;
-  display: inline-block; }
+  padding-left: 30px; }
+
+#html,
+#css,
+#sass,
+#bootstrap,
+#javascript,
+#backbone,
+#react,
+#jquery {
+  margin-bottom: 11px; }
+
+.labels {
+  padding-right: 0; }
+
+.labels p {
+  display: block;
+  text-align: right; }
 
 .empty-circle {
   width: 15px;
   height: 15px;
   border: 1px solid #999;
   border-radius: 100%;
-  display: inline-block; }
+  display: inline-block;
+  margin-top: 5px; }
 
 .filled-circle {
   width: 15px;

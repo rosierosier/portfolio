@@ -144,7 +144,7 @@ a:hover {
 #about-info p,
 #skills-info p {
   color: #999;
-  text-align: left;
+  // text-align: left;
 }
 
 #skills-info {
@@ -159,7 +159,30 @@ a:hover {
 
 #skills-info p {
   padding-left: 30px;
-  display: inline-block;
+}
+
+#html,
+#css,
+#sass,
+#bootstrap,
+#javascript,
+#backbone,
+#react,
+#jquery {
+  margin-bottom: 11px;
+}
+
+.labels {
+  padding-right: 0;
+}
+
+.labels p {
+  display: block;
+  text-align: right;
+}
+
+.ratings {
+
 }
 
 .empty-circle {
@@ -168,6 +191,7 @@ a:hover {
   border: 1px solid #999;
   border-radius: 100%;
   display: inline-block;
+  margin-top: 5px;
 }
 
 .filled-circle {
