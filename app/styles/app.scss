@@ -5,6 +5,11 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 // Import Bootstrap
 @import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
+@media (max-width: 480px) {
+  .nav {
+    background-color: lime;
+  }
+}
 
 *,
 *::before,
@@ -53,6 +58,14 @@ h6 {
   color: #fff;
 }
 
+@media (max-width: 770px) {
+  .nav a {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+  }
+}
+
 #logo-icon {
   display: inline-block;
 }
@@ -90,7 +103,7 @@ a:hover {
 }
 
 #profile-box {
-  min-height: 300px;
+  min-height: 200px;
 }
 
 #profile {
@@ -200,9 +213,9 @@ a:hover {
 
 .footer {
   margin-top: 15px;
-  background-color: #d3d3d3;
   padding: 15px;
   margin-bottom: 15px;
+  border-top: 1px solid #ff3388;
 }
 
 .footer p {
