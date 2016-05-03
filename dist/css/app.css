@@ -5809,9 +5809,6 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-@media (max-width: 480px) {
-  .nav {
-    background-color: lime; } }
 *,
 *::before,
 *::after {
@@ -5847,11 +5844,6 @@ h6 {
   display: inline-block;
   color: #fff; }
 
-@media (max-width: 770px) {
-  .nav a {
-    display: block;
-    padding: 10px 0;
-    border-bottom: 1px solid #fff; } }
 #logo-icon {
   display: inline-block; }
 
@@ -5869,6 +5861,17 @@ a:hover {
   text-decoration: none;
   margin-right: 10px; }
 
+@media (max-width: 770px) {
+  .nav a {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px; }
+
+  #nav-links a {
+    color: #ffa500; } }
 #title {
   position: relative;
   top: 50%;
