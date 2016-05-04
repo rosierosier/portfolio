@@ -19,16 +19,6 @@ img {
   width: 100%;
 }
 
-// .container-fluid {
-//   width: 100%;
-// }
-
-// .row {
-//   margin-left: -15px;
-//   margin-right: 0;
-//   padding-right: 15px;
-// }
-
 h1,
 h2,
 h3,
@@ -57,9 +47,10 @@ h6 {
   padding-top: 10px;
 }
 
-.nav p {
-  display: inline-block;
+.nav a {
   color: #fff;
+  text-decoration: none;
+  padding-left: 5px;
 }
 
 #logo-icon {
@@ -84,7 +75,7 @@ a:hover {
 }
 
 @media (max-width: 770px) {
-  .nav a {
+  #nav-links a {
     display: block;
     padding: 10px 0;
     border-bottom: 1px solid #fff;
@@ -134,10 +125,6 @@ a:hover {
   transform: translateY(25%);
 }
 
-// #profile:hover {
-//   filter: custom();
-// }
-
 #about-info {
   min-height: 275px;
   padding-right: 5%;
@@ -154,7 +141,6 @@ a:hover {
 #about-info p,
 #skills-info p {
   color: #999;
-  // text-align: left;
 }
 
 #skills-info {
@@ -165,10 +151,6 @@ a:hover {
 #skills-info h1 {
   padding-left: 30px;
   padding-top: 30px;
-}
-
-#skills-info p {
-  // padding-left: 30px;
 }
 
 #html,
@@ -189,10 +171,6 @@ a:hover {
 .labels p {
   display: block;
   text-align: right;
-}
-
-.ratings {
-
 }
 
 .empty-circle {
@@ -231,7 +209,6 @@ a:hover {
   border-radius: 4px;
   min-height: 300px;
   background-color: #ade1e6;
-  // margin-top: -20px;
   top: 7%;
   transform: translateY(-7%);
 }

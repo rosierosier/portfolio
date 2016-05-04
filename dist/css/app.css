@@ -5840,9 +5840,10 @@ h6 {
   background-color: #ffa500;
   padding-top: 10px; }
 
-.nav p {
-  display: inline-block;
-  color: #fff; }
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding-left: 5px; }
 
 #logo-icon {
   display: inline-block; }
@@ -5862,7 +5863,7 @@ a:hover {
   margin-right: 10px; }
 
 @media (max-width: 770px) {
-  .nav a {
+  #nav-links a {
     display: block;
     padding: 10px 0;
     border-bottom: 1px solid #fff;
@@ -6007,6 +6008,9 @@ a:hover {
 #image-board-img img {
   width: 100%;
   border-radius: 4px; }
+
+.relative {
+  position: relative; }
 
 #contact-info {
   min-height: 250px;
