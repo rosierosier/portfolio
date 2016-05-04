@@ -5838,7 +5838,8 @@ h6 {
 
 .nav {
   background-color: #72ccd4;
-  padding-top: 10px; }
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 .nav a {
   color: #fff;
@@ -5872,7 +5873,7 @@ a:hover {
     margin-bottom: 10px; }
 
   #nav-links a {
-    color: #ffa500; } }
+    color: #ade1e6; } }
 #title {
   position: relative;
   top: 50%;
@@ -6036,6 +6037,9 @@ a:hover {
   border-radius: 4px;
   border: 1px solid #d3d3d3; }
 
+#design-critic-img:hover {
+  background: linear-gradient(rgba(173, 225, 230, 0.85), rgba(173, 225, 230, 0.85)), url("../images/welcome screen.png") center center; }
+
 #dc {
   height: 350px; }
 
@@ -6062,6 +6066,9 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 15px; }
+
+#image-board a {
+  margin-bottom: 30px; }
 
 #contact-info {
   min-height: 250px;
