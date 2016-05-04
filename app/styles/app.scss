@@ -32,8 +32,8 @@ h6 {
   padding-top: 45px;
   background:
     linear-gradient(
-      rgba(230, 51, 136, 0.85),
-      rgba(230, 51, 136, 0.85)
+      rgba(173, 225, 230, 0.85),
+      rgba(173, 225, 230, 0.85)
     ),
     url("../images/picjumbo.com_HNCK8984.jpeg") center center;
   min-height: 300px;
@@ -43,7 +43,7 @@ h6 {
 }
 
 .nav {
-  background-color: #ffa500;
+  background-color: #72ccd4;
   padding-top: 10px;
 }
 
@@ -219,6 +219,17 @@ a:hover {
   padding-left: 30px;
 }
 
+#creations {
+  margin-top: 30px;
+  background-color: #ddd;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+#creations h1 {
+  color: #fff;
+}
+
 .projects {
   margin-top: 15px;
 }
@@ -231,9 +242,38 @@ a:hover {
   text-align: center;
 }
 
+#projects-section p:last-of-type {
+  padding-bottom: 15px;
+}
+
+#projects-section h3 {
+  color: #ade1e6;
+}
+
+#projects-section p {
+  color: #999;
+}
+
+#projects-section a {
+  padding: 15px 10px;
+  border: 1px solid #999;
+  color: #999;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#projects-section a:hover {
+  background-color: #999;
+  color: #fff;
+  text-decoration: none;
+}
+
 .game {
-  border-right: 1px solid #ff3388;
-  border-left: 1px solid #ff3388;
+  border-right: 1px solid #ade1e6;
+  border-left: 1px solid #ade1e6;
 }
 
 #design-critic-img,
@@ -243,18 +283,49 @@ a:hover {
   border: 1px solid #d3d3d3;
 }
 
+#dc {
+  height: 350px;
+}
+
+#design-critic-img {
+  height: 350px;
+  background: url("../images/welcome screen.png") center center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
+#game-img {
+  height: 350px;
+  background: url("../images/game.png") center center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
+#image-board-img {
+  height: 350px;
+  background: url("../images/image-board.png") center center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
 #design-critic-img img,
 #game-img img,
 #image-board-img img {
-  width: 100%;
-  border-radius: 4px;
+  // width: 100%;
+  // border-radius: 4px;
   // height: 150px;
 }
 
 #contact-info {
   min-height: 250px;
-  color: #23bb17;
-  border: 1px solid #23bb17;
+  color: #ade1e6;
+  border: 1px solid #ade1e6;
   border-radius: 4px;
 }
 
@@ -271,7 +342,7 @@ a:hover {
 }
 
 #contact-info a:hover {
-  color: #23bb17;
+  color: #ade1e6;
 }
 
 #contact-info img {
@@ -302,7 +373,7 @@ a:hover {
 }
 
 #resume a {
-  color: #23bb17;
+  color: #ade1e6;
   display: inline;
   padding-right: 0;
   padding-left: 0;

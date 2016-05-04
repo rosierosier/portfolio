@@ -10,13 +10,13 @@ var GameComponent = React.createClass({
     console.log('clicked');
     ReactDOM.render(
       <GameInfo/>,
-      document.getElementById('game-img')
+      document.getElementById('game')
     )
   },
   render: function(){
     return (
       <div onClick={this.handleClick}>
-        <img src="./images/game.png"/>
+        <div id="game-img"></div>
       </div>
     )
   }

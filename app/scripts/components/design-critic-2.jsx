@@ -10,13 +10,13 @@ var DesignCriticComponent = React.createClass({
     console.log('clicked');
     ReactDOM.render(
       <DesignCriticInfo/>,
-      document.getElementById('design-critic-img')
+      document.getElementById('dc')
     )
   },
   render: function(){
     return (
       <div onClick={this.handleClick}>
-        <img src="./images/welcome screen.png"/>
+        <div id="design-critic-img"></div>
       </div>
     )
   }

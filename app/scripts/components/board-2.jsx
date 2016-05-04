@@ -10,13 +10,13 @@ var ImageBoardComponent = React.createClass({
     console.log('clicked');
     ReactDOM.render(
       <ImageBoardInfo/>,
-      document.getElementById('image-board-img')
+      document.getElementById('image-board')
     )
   },
   render: function(){
     return (
       <div onClick={this.handleClick}>
-        <img src="./images/image-board.png"/>
+        <div id="image-board-img"></div>
       </div>
     )
   }

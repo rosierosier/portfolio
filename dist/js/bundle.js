@@ -12,13 +12,13 @@ var ImageBoardComponent = React.createClass({displayName: "ImageBoardComponent",
     console.log('clicked');
     ReactDOM.render(
       React.createElement(ImageBoardInfo, null),
-      document.getElementById('image-board-img')
+      document.getElementById('image-board')
     )
   },
   render: function(){
     return (
       React.createElement("div", {onClick: this.handleClick}, 
-        React.createElement("img", {src: "./images/image-board.png"})
+        React.createElement("div", {id: "image-board-img"})
       )
     )
   }
@@ -40,13 +40,13 @@ var DesignCriticComponent = React.createClass({displayName: "DesignCriticCompone
     console.log('clicked');
     ReactDOM.render(
       React.createElement(DesignCriticInfo, null),
-      document.getElementById('design-critic-img')
+      document.getElementById('dc')
     )
   },
   render: function(){
     return (
       React.createElement("div", {onClick: this.handleClick}, 
-        React.createElement("img", {src: "./images/welcome screen.png"})
+        React.createElement("div", {id: "design-critic-img"})
       )
     )
   }
@@ -116,13 +116,13 @@ var GameComponent = React.createClass({displayName: "GameComponent",
     console.log('clicked');
     ReactDOM.render(
       React.createElement(GameInfo, null),
-      document.getElementById('game-img')
+      document.getElementById('game')
     )
   },
   render: function(){
     return (
       React.createElement("div", {onClick: this.handleClick}, 
-        React.createElement("img", {src: "./images/game.png"})
+        React.createElement("div", {id: "game-img"})
       )
     )
   }
@@ -143,10 +143,10 @@ var ImageBoardInfo = React.createClass({displayName: "ImageBoardInfo",
     return (
       React.createElement("div", null, 
         React.createElement("h3", null, "Image Board"), 
-        React.createElement("p", null, "I value feedback! In fact, I value it so much that I created an app for developers to get feedback on their designs."), 
+        React.createElement("p", null, "Image Board is an app that allows users to upload images along with captions. I am currently using this app as an inspiration to continue traveling. I love to travel, and many of the images are of cities I have visited or am looking forward to visiting soon!"), 
         React.createElement("p", null, "I used HTML, CSS, SASS, Bootstrap, JavaScript, JQuery, Backbone, and React components to build this app."), 
-        React.createElement("a", {href: "http://rosierosier.github.io/final-project/dist/index.html"}, "View live"), 
-        React.createElement("a", {href: "https://github.com/rosierosier/final-project/blob/master/app/index.html"}, "View code")
+        React.createElement("a", {href: "http://rosierosier.github.io/7.1-backbone-image-board/dist/index.html"}, "View live"), 
+        React.createElement("a", {href: "https://github.com/rosierosier/7.1-backbone-image-board/blob/master/app/index.html"}, "View code")
       )
     )
   }
@@ -167,17 +167,17 @@ var ImageBoardComponent = require('./components/board-2.jsx');
 
 ReactDOM.render(
   React.createElement(DesignCriticComponent, null),
-  document.getElementById('design-critic-img')
+  document.getElementById('dc')
 );
 
 ReactDOM.render(
   React.createElement(GameComponent, null),
-  document.getElementById('game-img')
+  document.getElementById('game')
 );
 
 ReactDOM.render(
   React.createElement(ImageBoardComponent, null),
-  document.getElementById('image-board-img')
+  document.getElementById('image-board')
 );
 
 },{"./components/board-2.jsx":1,"./components/design-critic-2.jsx":2,"./components/game.jsx":5,"jquery":35,"react":166,"react-dom":37}],8:[function(require,module,exports){

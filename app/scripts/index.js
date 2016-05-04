@@ -9,15 +9,15 @@ var ImageBoardComponent = require('./components/board-2.jsx');
 
 ReactDOM.render(
   <DesignCriticComponent />,
-  document.getElementById('design-critic-img')
+  document.getElementById('dc')
 );
 
 ReactDOM.render(
   <GameComponent />,
-  document.getElementById('game-img')
+  document.getElementById('game')
 );
 
 ReactDOM.render(
   <ImageBoardComponent />,
-  document.getElementById('image-board-img')
+  document.getElementById('image-board')
 );
