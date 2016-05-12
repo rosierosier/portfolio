@@ -5902,6 +5902,7 @@ a:hover {
   background-clip: border-box;
   background-position: 0px -25px;
   margin: 0 auto;
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   top: 25%;
   transform: translateY(25%); }
